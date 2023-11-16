@@ -77,7 +77,8 @@
 //         age: 15
 //     }
 // ]
-// console.log(students.sort(function(a, b) {return a.age - b.age}));
+// console.log(students.sort(function(a, b){return a.age - b.age}));
+
 
 // console.log(new Date());
 // console.log(new Date().toTimeString());
@@ -157,7 +158,7 @@
 // }
 // adds(1,0,6,8,9);
 
-function dodo(){
-console.log(arguments);
-}
-dodo(1,3,5,7,9);
+// function dodo(){
+// console.log(arguments);
+// }
+// dodo(1,3,5,7,9);
