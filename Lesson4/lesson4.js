@@ -155,17 +155,21 @@
 // }
 // add("a",1);
 
-function divide(a, b) {
-    if (typeof a !== "number" || typeof b !== "number") {
-        throw "Invalid data";
-    }
-    return a / b;
-}
-try {
-    console.log(divide(null, 2));
-} catch (error) {
-    throw new Error("Invalid data 2");
-}
-finally{
-    console.log("Finally");
-}
+// function divide(a, b) {
+//     if (typeof a !== "number" || typeof b !== "number") {
+//         throw "Invalid data";
+//     }
+//     return a / b;
+// }
+// try {
+//     console.log(divide(null, 2));
+// } catch (error) {
+//     throw new Error("Invalid data 2");
+// }
+// finally{
+//     console.log("Finally");
+// }
+
+// TypeError
+// RangeError
+// EvalError
