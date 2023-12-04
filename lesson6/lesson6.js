@@ -62,4 +62,43 @@
 // console.log(objB);
 
 
-console.log(Math.floor(Math.random()*100));
+//console.log(Math.floor(Math.random()*100));
+
+//Viet function random ra N so,ko trung nhau
+// function random(N){
+//     const arr = [];
+  
+//     while(arr.length < N){
+//       const randNumber = Math.floor(Math.random() * 100);
+  
+//       if (!arr.includes(randNumber)) {
+//         arr.push(randNumber);
+//       }
+//     }
+  
+//     return arr;
+//   }
+  
+//   console.log(random(12))
+
+
+//Viet function generate N so va lon hon min va be hon max
+function random(N, min, max){
+    const arr = [];
+  
+    while(arr.length < N){
+      const randNumber = Math.floor(Math.random() * (max-min+1))+min;
+  
+      if (!arr.includes(randNumber)) {
+        arr.push(randNumber);
+      }
+    }
+  
+    if (N > (max - min + 1) || max < min) {
+      return null;
+    }
+  
+    return arr;
+  }
+  
+  console.log(random(10,1,100))
