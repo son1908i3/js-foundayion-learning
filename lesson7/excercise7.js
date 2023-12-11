@@ -1,3 +1,4 @@
+//nho phan mem thu 3
 function clock(n, isCountingUp, callback) {
     let i = isCountingUp ? 0 : n;
     let interval = setInterval(() => {
